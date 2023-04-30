@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="isw.grupo1">
+    package="isw.grupo9">
 
     <application
         android:allowBackup="true"
@@ -14,26 +14,26 @@
         android:theme="@style/Theme.Delivery_Loquesea"
         tools:targetApi="31">
         <activity
-            android:name=".view.ConfirmacionActivity"
+            android:name="isw.grupo9.view.ConfirmacionActivity"
             android:exported="false" />
         <activity
-            android:name=".view.ResumenActivity"
+            android:name="isw.grupo9.view.ResumenActivity"
             android:exported="false"
-            android:parentActivityName=".view.MedioPagoActivity" />
+            android:parentActivityName="isw.grupo9.view.MedioPagoActivity" />
         <activity
-            android:name=".view.MedioPagoActivity"
+            android:name="isw.grupo9.view.MedioPagoActivity"
             android:exported="false"
-            android:parentActivityName=".view.DomicilioEntregaActivity" />
+            android:parentActivityName="isw.grupo9.view.DomicilioEntregaActivity" />
         <activity
-            android:name=".view.DomicilioEntregaActivity"
+            android:name="isw.grupo9.view.DomicilioEntregaActivity"
             android:exported="false"
-            android:parentActivityName=".view.DescripcionPedidoActivity" />
+            android:parentActivityName="isw.grupo9.view.DescripcionPedidoActivity" />
         <activity
-            android:name=".view.DescripcionPedidoActivity"
+            android:name="isw.grupo9.view.DescripcionPedidoActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName="isw.grupo9.MainActivity" />
         <activity
-            android:name=".MainActivity"
+            android:name="isw.grupo9.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

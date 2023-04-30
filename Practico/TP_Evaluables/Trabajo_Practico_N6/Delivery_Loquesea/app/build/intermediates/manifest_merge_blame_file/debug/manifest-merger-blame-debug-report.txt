@@ -30,64 +30,63 @@
 20-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:12:9-54
 21        android:supportsRtl="true"
 21-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:13:9-35
-22        android:testOnly="true"
-23        android:theme="@style/Theme.Delivery_Loquesea" >
-23-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:14:9-55
-24        <activity
-24-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:16:9-18:40
-25            android:name="isw.grupo1.view.ConfirmacionActivity"
-25-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:17:13-54
-26            android:exported="false" />
-26-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:18:13-37
-27        <activity
-27-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:19:9-22:68
-28            android:name="isw.grupo1.view.ResumenActivity"
-28-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:20:13-49
-29            android:exported="false"
-29-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:21:13-37
-30            android:parentActivityName="isw.grupo1.view.MedioPagoActivity" />
-30-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:22:13-65
-31        <activity
-31-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:23:9-26:75
-32            android:name="isw.grupo1.view.MedioPagoActivity"
-32-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:24:13-51
-33            android:exported="false"
-33-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:25:13-37
-34            android:parentActivityName="isw.grupo1.view.DomicilioEntregaActivity" />
-34-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:26:13-72
-35        <activity
-35-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:27:9-30:76
-36            android:name="isw.grupo1.view.DomicilioEntregaActivity"
-36-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:28:13-58
-37            android:exported="false"
-37-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:29:13-37
-38            android:parentActivityName="isw.grupo1.view.DescripcionPedidoActivity" />
-38-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:30:13-73
-39        <activity
-39-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:31:9-34:58
-40            android:name="isw.grupo1.view.DescripcionPedidoActivity"
-40-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:32:13-59
-41            android:exported="false"
-41-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:33:13-37
-42            android:parentActivityName="isw.grupo1.MainActivity" />
-42-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:34:13-55
-43        <activity
-43-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:35:9-43:20
-44            android:name="isw.grupo1.MainActivity"
-44-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:36:13-41
-45            android:exported="true" >
-45-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:37:13-36
-46            <intent-filter>
-46-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:38:13-42:29
-47                <action android:name="android.intent.action.MAIN" />
-47-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:39:17-69
-47-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:39:25-66
-48
-49                <category android:name="android.intent.category.LAUNCHER" />
-49-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:41:17-77
-49-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:41:27-74
-50            </intent-filter>
-51        </activity>
-52    </application>
-53
-54</manifest>
+22        android:theme="@style/Theme.Delivery_Loquesea" >
+22-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:14:9-55
+23        <activity
+23-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:16:9-18:40
+24            android:name="isw.grupo1.view.ConfirmacionActivity"
+24-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:17:13-54
+25            android:exported="false" />
+25-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:18:13-37
+26        <activity
+26-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:19:9-22:68
+27            android:name="isw.grupo1.view.ResumenActivity"
+27-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:20:13-49
+28            android:exported="false"
+28-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:21:13-37
+29            android:parentActivityName="isw.grupo1.view.MedioPagoActivity" />
+29-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:22:13-65
+30        <activity
+30-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:23:9-26:75
+31            android:name="isw.grupo1.view.MedioPagoActivity"
+31-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:24:13-51
+32            android:exported="false"
+32-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:25:13-37
+33            android:parentActivityName="isw.grupo1.view.DomicilioEntregaActivity" />
+33-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:26:13-72
+34        <activity
+34-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:27:9-30:76
+35            android:name="isw.grupo1.view.DomicilioEntregaActivity"
+35-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:28:13-58
+36            android:exported="false"
+36-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:29:13-37
+37            android:parentActivityName="isw.grupo1.view.DescripcionPedidoActivity" />
+37-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:30:13-73
+38        <activity
+38-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:31:9-34:58
+39            android:name="isw.grupo1.view.DescripcionPedidoActivity"
+39-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:32:13-59
+40            android:exported="false"
+40-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:33:13-37
+41            android:parentActivityName="isw.grupo1.MainActivity" />
+41-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:34:13-55
+42        <activity
+42-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:35:9-43:20
+43            android:name="isw.grupo1.MainActivity"
+43-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:36:13-41
+44            android:exported="true" >
+44-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:37:13-36
+45            <intent-filter>
+45-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:38:13-42:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:39:17-69
+46-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:39:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:41:17-77
+48-->D:\Repo ISW 2023\ISW_G9_4K4_2023\Practico\TP_Evaluables\Trabajo_Practico_N6\Delivery_Loquesea\app\src\main\AndroidManifest.xml:41:27-74
+49            </intent-filter>
+50        </activity>
+51    </application>
+52
+53</manifest>
