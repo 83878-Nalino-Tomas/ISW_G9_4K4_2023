@@ -73,7 +73,7 @@
                     android:ems="10"
                     android:gravity="start|top"
                     android:inputType="textMultiLine"
-                    android:maxLength="401"
+                    android:maxLength="20"
                     android:maxLines="8"
                     android:minHeight="50dp" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -81,9 +81,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Máximo 400 caracteres"
-                android:textSize="11sp">
-            </TextView>
+                android:text="Máximo 20 caracteres"
+                android:textSize="11sp"></TextView>
 
             <TextView
                 android:id="@+id/textView7"
