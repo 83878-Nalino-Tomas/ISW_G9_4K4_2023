@@ -53,7 +53,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="32dp"
-        android:backgroundTint="@color/verde_oscuro"
+        android:backgroundTint="@color/botones_azul"
         android:text="Hacer otro pedido"
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"

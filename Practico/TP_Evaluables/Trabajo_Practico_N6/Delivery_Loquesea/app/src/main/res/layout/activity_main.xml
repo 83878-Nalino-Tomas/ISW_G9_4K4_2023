@@ -31,7 +31,6 @@
             android:id="@+id/clVistaMain"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/white"
             android:visibility="visible">
 
 
@@ -82,7 +81,6 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="32dp"
                 android:layout_marginEnd="16dp"
-                app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="20dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -342,7 +340,7 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="32dp"
                 android:layout_marginBottom="32dp"
-                android:backgroundTint="@color/botones_primario"
+                android:backgroundTint="@color/botones_azul"
                 android:text="Siguiente"
                 app:cornerRadius="50dp"
                 app:layout_constraintBottom_toBottomOf="parent"
