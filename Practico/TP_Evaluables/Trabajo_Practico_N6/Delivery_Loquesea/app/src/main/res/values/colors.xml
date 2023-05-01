@@ -16,4 +16,9 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="botones_azul">#0D3B66</color>
+    <color name="lemon_chiffon">#FAF0CA</color>
+    <color name="naples_yellow">#F4D35E</color>
+    <color name="sandy_brown">#EE964B</color>
+    <color name="tomato">#F95738</color>
 </resources>

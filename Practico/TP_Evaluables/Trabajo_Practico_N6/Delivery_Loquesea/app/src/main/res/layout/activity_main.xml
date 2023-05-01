@@ -31,7 +31,6 @@
             android:id="@+id/clVistaMain"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/white"
             android:visibility="visible">
 
 
@@ -82,7 +81,6 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="32dp"
                 android:layout_marginEnd="16dp"
-                app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="20dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -138,7 +136,7 @@
                             android:layout_height="wrap_content"
                             android:ems="10"
                             android:inputType="textPersonName"
-                            android:maxLength="60"
+                            android:maxLength="100"
                             android:minHeight="50dp" />
 
                     </com.google.android.material.textfield.TextInputLayout>
@@ -315,7 +313,7 @@
                                 android:ems="10"
                                 android:gravity="start|top"
                                 android:inputType="textMultiLine"
-                                android:maxLength="401"
+                                android:maxLength="100"
                                 android:maxLines="6"
                                 android:minHeight="50dp" />
                         </com.google.android.material.textfield.TextInputLayout>
@@ -323,7 +321,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Máximo 400 caracteres"
+                            android:text="Máximo 100 caracteres"
                             android:textSize="11sp"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toBottomOf="@+id/tilReferenciaRetiro">
@@ -342,7 +340,7 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="32dp"
                 android:layout_marginBottom="32dp"
-                android:backgroundTint="@color/botones_primario"
+                android:backgroundTint="@color/botones_azul"
                 android:text="Siguiente"
                 app:cornerRadius="50dp"
                 app:layout_constraintBottom_toBottomOf="parent"
