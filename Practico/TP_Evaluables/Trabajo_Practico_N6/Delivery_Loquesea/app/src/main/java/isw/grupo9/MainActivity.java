@@ -134,6 +134,12 @@ public class MainActivity extends AppCompatActivity{
         pisoFilters.add(0, new ControladorPedidoLoQueSea.AlphaNumericInputFilter());
         pisoFilters.add(1, new InputFilter.AllCaps());
         etPisoRetiro.setFilters(dptoFilters.toArray(new InputFilter[dptoFilters.size()]));
+        //Filtros para referencia de domicilio
+        ArrayList<InputFilter> refInputFilters = new ArrayList<>(Arrays.asList(etReferencia.getFilters()));
+        refInputFilters.add(0, new ControladorPedidoLoQueSea.AlphaNumericInputFilter());
+        refInputFilters.add(1, new InputFilter.AllCaps());
+        InputFilter[] newRefInputFilters = refInputFilters.toArray(new InputFilter[refInputFilters.size()]);
+        etReferencia.setFilters(newRefInputFilters);
     }
 
     private void seleccionDomicilioMapa() {
@@ -243,9 +249,9 @@ public class MainActivity extends AppCompatActivity{
 
     private void cargarCiudades(){
         List<String> ciudadesList =  new ArrayList<String>();
+        ciudadesList.add("Córdoba");
         ciudadesList.add("Unquillo");
         ciudadesList.add("Villa Allende");
-        ciudadesList.add("Va. Gral. Belgrano");
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(
                 this, android.R.layout.simple_spinner_item, ciudadesList);
 

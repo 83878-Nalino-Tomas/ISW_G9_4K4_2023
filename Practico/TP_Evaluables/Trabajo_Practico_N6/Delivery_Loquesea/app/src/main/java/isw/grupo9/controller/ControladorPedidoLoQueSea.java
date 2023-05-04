@@ -306,14 +306,15 @@ public class ControladorPedidoLoQueSea implements Serializable {
         if(medioPagoSelec == null || medioPagoSelec.isEmpty()) return false;
         if(medioPagoSelec.equals(PAGO_TARJETA)){
             fechaVenc = fechaVenc.replace(" ", "");
-            if(fechaVenc.length() != 5){
-                errores.put(idVista, "Formato incorrecto (MM/AA)");
+            if(fechaVenc.length() != 7){
+                errores.put(idVista, "Formato incorrecto (MM/AAAA)");
                 return false;
             }
             String []partes = fechaVenc.split("/");
             try{
                 int mes = Integer.parseInt(partes[0]);
-                int anio = Integer.parseInt(partes[1]) + 2000;
+                //int anio = Integer.parseInt(partes[1]) + 2000;
+                int anio = Integer.parseInt(partes[1]);
                 int dia = 1;
                 LocalDate fechaVencDate = LocalDate.of(anio, mes, dia);
                 LocalDate fechaActual = LocalDate.now();
@@ -322,7 +323,7 @@ public class ControladorPedidoLoQueSea implements Serializable {
                     return false;
                 }
             }catch (Exception e){
-                errores.put(idVista, "Formato incorrecto (MM/AA)");
+                errores.put(idVista, "Formato incorrecto (MM/AAAA)");
                 return false;
             }
         }
@@ -423,13 +424,13 @@ public class ControladorPedidoLoQueSea implements Serializable {
 
         @Override
         public void afterTextChanged(Editable editable) {
-            if (editable.length() > 0 && (editable.length() % 3) == 0) {
+            if (editable.length() > 0 && (editable.length()) == 3) { //Elimino % 3 de el lado izquiero de la igualdad, reemplazo 0 por 3
                 final char c = editable.charAt(editable.length() - 1);
                 if ('/' == c) {
                     editable.delete(editable.length() - 1, editable.length());
                 }
             }
-            if (editable.length() > 0 && (editable.length() % 3) == 0) {
+            if (editable.length() > 0 && (editable.length()) == 3) { //Elimino % 3 de el lado izquiero de la igualdad reemplazo 0 por 3
                 char c = editable.charAt(editable.length() - 1);
                 if (Character.isDigit(c) && TextUtils.split(editable.toString(), String.valueOf("/")).length <= 2) {
                     editable.insert(editable.length() - 1, String.valueOf("/"));

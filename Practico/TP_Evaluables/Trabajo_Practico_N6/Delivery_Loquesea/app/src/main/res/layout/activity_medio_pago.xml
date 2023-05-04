@@ -235,25 +235,31 @@
                             android:minWidth="75dp" />
                     </com.google.android.material.textfield.TextInputLayout>
 
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
                     <TextView
                         android:id="@+id/tvVencTarj"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="*Fecha V.:"
+                        android:text="*Fecha Venc.:"
                         app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintLeft_toRightOf="@+id/tilCVC"
+                        app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
 
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/tilFechaVenc"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_marginLeft="8dp"
+                        android:layout_marginEnd="10dp"
                         android:layout_weight="1"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintLeft_toRightOf="@id/tvVencTarj"
                         android:background="@android:color/transparent"
                         app:boxBackgroundColor="@android:color/transparent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/tvVencTarj"
                         app:layout_constraintTop_toTopOf="parent">
 
                         <EditText
@@ -262,14 +268,15 @@
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:ems="10"
-                            android:hint="MM/AA"
+                            android:hint="MM/AAAA"
                             android:inputType="date"
-                            android:maxLength="5"
+                            android:maxLength="7"
                             android:minWidth="90dp" />
                     </com.google.android.material.textfield.TextInputLayout>
                 </androidx.constraintlayout.widget.ConstraintLayout>
-
             </LinearLayout>
+
+
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>

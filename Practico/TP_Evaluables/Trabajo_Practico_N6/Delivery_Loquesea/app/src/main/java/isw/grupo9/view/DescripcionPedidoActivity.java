@@ -9,6 +9,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
+import android.text.InputFilter;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.Animation;
@@ -20,6 +21,8 @@ import android.widget.TextView;
 
 import com.google.android.material.textfield.TextInputLayout;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Map;
 
 import isw.grupo9.R;
@@ -64,6 +67,7 @@ public class DescripcionPedidoActivity extends AppCompatActivity {
         actionBar = getSupportActionBar();
         //actionBar.setDisplayHomeAsUpEnabled(true);
         cargarActionBar();
+        agregarFiltros();
 
     }
 
@@ -75,6 +79,15 @@ public class DescripcionPedidoActivity extends AppCompatActivity {
         //actionBar.setDisplayHomeAsUpEnabled(true);
         btnAtras = findViewById(R.id.btnAtras);
         btnAtras.setOnClickListener(bView -> botonAtras());
+    }
+
+    private void agregarFiltros(){
+        //Filtros para referencia de domicilio
+        ArrayList<InputFilter> refInputFilters = new ArrayList<>(Arrays.asList(etDescripcionPedido.getFilters()));
+        refInputFilters.add(0, new ControladorPedidoLoQueSea.AlphaNumericInputFilter());
+        refInputFilters.add(1, new InputFilter.AllCaps());
+        InputFilter[] newRefInputFilters = refInputFilters.toArray(new InputFilter[refInputFilters.size()]);
+        etDescripcionPedido.setFilters(newRefInputFilters);
     }
 
     private void cargarImagen() {
