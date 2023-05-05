@@ -184,6 +184,12 @@ public class MedioPagoActivity extends AppCompatActivity {
         InputFilter[] newInputFilters = curInputFilters.toArray(new InputFilter[curInputFilters.size()]);
         etTitular.setFilters(newInputFilters);
 
+        ArrayList<InputFilter> nroTarjInputFilters = new ArrayList<>(Arrays.asList(etNroTarjeta.getFilters()));
+        nroTarjInputFilters.add(0, new ControladorPedidoLoQueSea.AlphaNumericInputFilter());
+        nroTarjInputFilters.add(1, new InputFilter.AllCaps());
+        InputFilter[] newRefInputFilters = nroTarjInputFilters.toArray(new InputFilter[nroTarjInputFilters.size()]);
+        etNroTarjeta.setFilters(newRefInputFilters);
+
         //ArrayList<InputFilter> fechaVencFilters = new ArrayList<>(Arrays.asList(etFechaV.getFilters()));
         //fechaVencFilters.add(0, new ControladorPedidoLoQueSea.FechaVencimientoFilter());
         //InputFilter[] newFechaVencFilters = fechaVencFilters.toArray(new InputFilter[fechaVencFilters.size()]);
